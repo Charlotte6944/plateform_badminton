@@ -4,4 +4,6 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   enum role: [:admin, :dirigeant, :joueur]
+  validates_presence_of :nom, :prenom
+  validates_uniqueness_of :num_licence, allow_blank: true
 end
