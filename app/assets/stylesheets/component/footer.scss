@@ -1,9 +1,17 @@
 @import '../configuration/variables.scss';
 
-.app-navbar {
-  background-size: cover;
-  justify-content: space-between;
+.app-footer {
+  width: 100vw;
+  // justify-content: space-between;
   background: $grey;
+  position: fixed;
+  bottom: 0;
+  .image-footer {
+    padding: 0.5rem;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+  }
 }
 
 // .navbar-lewagon .navbar-collapse {
