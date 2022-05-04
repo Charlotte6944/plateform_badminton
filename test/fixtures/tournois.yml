@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: MyString
+  ville: MyString
+  date_tournoi: 2022-05-04
+  nscription_max: 2022-05-04
+  categories: MyString
+
+two:
+  nom: MyString
+  ville: MyString
+  date_tournoi: 2022-05-04
+  nscription_max: 2022-05-04
+  categories: MyString
